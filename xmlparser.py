@@ -126,6 +126,7 @@ def parse_metadata_from_record(record: etree.Element) -> dict:
         )
     except AttributeError:
         logger.debug(f"Resolution {metadata['Resolution']} has no draft resolution.")
+        metadata["Draft Resolution"] = ""
 
     return metadata
 

@@ -32,7 +32,7 @@ def save_dict_to_pd_excel(data: list[dict], filename: str):
     """
     # Putting the dictionary into the dataframe
     df = pd.DataFrame.from_dict(data)
-    cols = ["Title", "Resolution", "Meeting Record", "Agenda", "Draft Resolution" "Vote Date", "Total Yes", "Total No", "Total Abstentions", "Total Non-Participating", "Total voting membership"]
+    cols = ["Title", "Resolution", "Meeting Record", "Agenda", "Draft Resolution", "Vote Date", "Total Yes", "Total No", "Total Abstentions", "Total Non-Participating", "Total voting membership"]
     sorted_df = df[cols + [c for c in df.columns if c not in cols]]
     logger.info("Saving to Excel file...")
     # Writing the dataframe into an excel file

@@ -20,9 +20,9 @@ Python 3.8+
 
 ### Configuration
 
-To adjust the time frame to fetch, adjust the constants in the `htmlparser` module. 
+To adjust the time frame to fetch, adjust the constants in the `fetch_data` module. 
 
 ## Authors
 
-Adrian Steube
-David Justo
+* Adrian Steube
+* David Justo
