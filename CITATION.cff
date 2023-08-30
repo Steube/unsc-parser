@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+title: UN-Security Council Voting Parser
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Adrian
+    family-names: Steube
+  - given-names: David
+    family-names: Justo
+repository-code: 'https://github.com/Steube/unsc-parser'
+version: '1.0'
+date-released: '2023-08-29'
